@@ -1,6 +1,3 @@
-# vm-clusters-setup-vagrant
-Script for setting up many virtual machines with dependencies
-
 # Script de Maquinas virtuais
 [![NPM](https://img.shields.io/npm/l/react)](https://github.com/d1av/vm-clusters-setup-vagrant/blob/main/LICENSE) 
 
