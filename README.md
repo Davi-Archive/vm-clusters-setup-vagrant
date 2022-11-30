@@ -1,24 +1,30 @@
 # vm-clusters-setup-vagrant
 Script for setting up many virtual machines with dependencies
 
-# Big Game Survey 
-[![NPM](https://img.shields.io/npm/l/react)](https://github.com/neliocursos/exemplo-readme/blob/main/LICENSE) 
+# Script de Maquinas virtuais
+[![NPM](https://img.shields.io/npm/l/react)](https://github.com/d1av/vm-clusters-setup-vagrant/blob/main/LICENSE) 
 
 # Sobre o projeto
 
-https://wmazoni-sds1.netlify.app
+O Script de Maquinas virtuais é uma aplicação de terminal para criação de servidores em Linux ubuntu 22.04 com apache2 e docker pré instalaods, para a execução e testes dos containers em nuvem antes de hospedar na AWS.
 
-Big Game Survey é uma aplicação full stack web e mobile construída durante a 1ª edição da **Semana DevSuperior** (#sds1), evento organizado pela [DevSuperior](https://devsuperior.com "Site da DevSuperior").
+A aplicação consiste de um script capas de criar diversos containers em varios nodos, para garantir performace e  estabilidade do aplicativo, e que o mesmo seja escalável para quando for requisitado.
 
-A aplicação consiste em uma pesquisa de preferência de games, onde os dados são coletados no app mobile, e depois são listados no app web, que também apresenta um dashboard com gráficos baseados nestes dados.
+# Modelo de Hospedagem
+
+![aeb-multicontainer-docker-example](https://user-images.githubusercontent.com/107776531/204908436-a5cb67f8-4976-4fb4-9954-70aa8800eb99.png)
+
 
 ## Virtual Machine
 ![vagrant](https://user-images.githubusercontent.com/107776531/204906799-63411aff-3426-4182-9ff2-ad727d2d8727.png)
 
 # Tecnologias utilizadas
 
+- Ubuntu 22.04 Server
 - Bash
 - Oracle Virtual Box
+- Docker
+- Swarm
 
 
 # Como executar o projeto
